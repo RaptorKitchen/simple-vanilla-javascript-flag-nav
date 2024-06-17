@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CIS 1440 Project 1 - Flags and Countries</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="CIS 1440 Project 1 - Flags and Countries">
+    <meta property="og:title" content="CIS 1440 Project 1 - Flags and Countries">
+    <meta property="og:type" content="CIS 1440 Project 1 - Flags and Countries">
+    <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+    <nav>
+        <h1 class="text-center">Flags and Countries</h1>
+    </nav>
+    <div id="menu" class="menu"></div>
+    <div id="details" class="details">
+        <div class="w-50">
+            <div class="loader" id="loadingIcon" style="display:none"></div>
+            <img id="map_img" src="" alt="Country Map">
+        </div>
+        <div class="w-50">
+            <div class="info">
+                <h2 id="countryName"></h2>
+                <h3 id="continent"></h3>
+                <p id="population"></p>
+                <p id="languages"></p>
+            </div>
+        </div>
+    </div>
+    <footer>All flag, map, and country data retrieved from <a href="https://www.wikimedia.org/" target="_blank">Wikimedia Commons</a></footer>
+    <script type="module" src="js/flags.js"></script>
+</body>
+</html>
